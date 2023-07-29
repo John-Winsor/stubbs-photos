@@ -1,0 +1,46 @@
+.font-small {
+   font-size: 18px;
+   color: #000000;
+}
+
+.font-less-small {
+   font-size: 19px;
+   color: #000000;
+}
+
+.font-medium {
+   font-size: 25px;
+   color: #000000;
+}
+
+.font-large {
+   font-size: 30px;
+   color: #000000;
+}
+
+.img-portrait {
+   display: none;
+   width: 100%;
+}
+
+.text-landscape {
+   display: none;
+   width: 100%;
+}
+
+@media only screen and (orientation: portrait) {
+   .img-portrait {
+     display: block;
+     width: 100%;
+     align: center;
+   }
+}
+
+@media only screen and (orientation: landscape) {
+   .text-landscape {
+     display: block;
+     width: 100%;
+     align: center;
+   }
+}
+
