@@ -9,6 +9,11 @@
 }
 
 .font-medium {
+   font-size: 22px;
+   color: #000000;
+}
+
+.font-medium-plus {
    font-size: 25px;
    color: #000000;
 }
@@ -43,4 +48,3 @@
      align: center;
    }
 }
-
